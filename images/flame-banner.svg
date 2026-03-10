@@ -1,0 +1,62 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f87171;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)" />
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#ef4444" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" />
+  
+  <!-- Glowing orbs -->
+  <circle cx="200" cy="150" r="100" fill="#ef4444" opacity="0.1" filter="blur(40px)" />
+  <circle cx="1000" cy="480" r="120" fill="#dc2626" opacity="0.1" filter="blur(50px)" />
+  
+  <!-- Logo -->
+  <g transform="translate(100, 200)">
+    <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" />
+    <path d="M50 20L38 26V42C38 54 44 65.2 50 70C56 65.2 62 54 62 42V26L50 20Z" fill="white" />
+    <path d="M50 26L42 30V42C42 50 46 57.5 50 62C54 57.5 58 50 58 42V30L50 26Z" fill="#ef4444" />
+    <circle cx="50" cy="38" r="4" fill="white" />
+    <rect x="47" y="42" width="6" height="8" rx="1" fill="white" />
+  </g>
+  
+  <!-- Main title -->
+  <text x="220" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGradient)">Flame</text>
+  
+  <!-- Subtitle -->
+  <text x="220" y="330" font-family="Arial, sans-serif" font-size="36" font-weight="600" fill="white">Advanced Discord Security Bot</text>
+  
+  <!-- Features -->
+  <text x="220" y="380" font-family="Arial, sans-serif" font-size="24" fill="#ef4444">🛡️ Anti-Nuke Protection</text>
+  <text x="220" y="415" font-family="Arial, sans-serif" font-size="24" fill="#ef4444">👥 Trusted by 10,000+ Servers</text>
+  
+  <!-- Stats badge -->
+  <rect x="220" y="450" width="200" height="40" rx="20" fill="#ef4444" opacity="0.2" />
+  <text x="320" y="475" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ef4444" text-anchor="middle">99.9% Uptime</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="950" cy="200" r="3" fill="#ef4444" opacity="0.6" />
+  <circle cx="980" cy="180" r="2" fill="#dc2626" opacity="0.8" />
+  <circle cx="920" cy="160" r="2.5" fill="#f87171" opacity="0.7" />
+  <circle cx="1050" cy="220" r="2" fill="#ef4444" opacity="0.5" />
+</svg>
